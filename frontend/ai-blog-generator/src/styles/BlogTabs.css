@@ -1,0 +1,39 @@
+/* BlogTabs.css */
+
+.tabs {
+    display: flex;
+    overflow-x: auto;           /* Enables horizontal scrolling */
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #293c63;
+    justify-content: flex-start; /* Align left for scroll */
+    white-space: nowrap;        /* Prevent tabs from wrapping */
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE 10+ */
+  }
+  
+  .tabs::-webkit-scrollbar {
+    display: none;              /* Chrome, Safari */
+  }
+  
+  .tab {
+    flex: 0 0 auto;             /* Prevents tab from stretching */
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .tab:hover {
+    background-color: #7f9fde;
+  }
+  
+  .tab.active {
+    background-color: #061731;
+    color: white;
+    border-color: #2563eb;
+  }
+  

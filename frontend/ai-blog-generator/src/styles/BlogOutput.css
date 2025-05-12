@@ -1,0 +1,35 @@
+.blog-output-container {
+    padding: 3rem 1rem;
+    max-width: 100%;
+    margin: auto;
+    background-color: #0b0f19;
+    min-height: 100vh;
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .blog-output-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #00ffcc;
+    text-align: center;
+    border-bottom: 1px solid #222;
+    padding-bottom: 1rem;
+  }
+  
+  .blog-output-text {
+    white-space: pre-wrap;
+    background: #121826;
+    padding: 2rem;
+    border-radius: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+  }
+  
+  .blog-loading-text {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #888;
+  }
+  

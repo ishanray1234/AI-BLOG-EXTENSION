@@ -1,0 +1,33 @@
+/* BlogList.css */
+.blog-list {
+    background-color: #0d1421;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.blog-card {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-4px);
+}
+
+.blog-card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #111827;
+}
+
+.blog-card p {
+    font-size: 0.95rem;
+    color: #4b5563;
+    margin: 0.5rem 0;
+}
